@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/widget27"
+    android:background="#4CC52B">
+
+    <LinearLayout
+        android:layout_height="250dp"
+        android:layout_width="300dp"
+        android:id="@+id/widget28"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        >
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <TextView
+                android:text="Silakan Memilih Anda Ingin Menghitung Bangun Ruang Apa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000ff"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                />
+
+            <RadioGroup
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ator"
+                    android:text="Menghitung Bola"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18dp">
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/btod"
+                    android:text="Menghitung Kubus"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18dp">
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ctod"
+                    android:text="Menghitung Balok"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18dp">
+                </RadioButton>
+            </RadioGroup>
+        </TableLayout>
+    </LinearLayout>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/go"
+        android:text="GO"
+        android:layout_alignRight="@+id/widget28"
+        android:layout_below="@+id/widget28">
+    </Button>
+</RelativeLayout>

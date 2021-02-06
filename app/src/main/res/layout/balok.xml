@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@color/purple_200"
+    android:id="@+id/widget27">
+
+    <LinearLayout
+        android:layout_height="450dp"
+        android:layout_width="300dp"
+        android:id="@+id/widget28"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget30"
+            android:textStyle="bold"
+            android:text="Masukkan Panjang">
+        </TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/panjang"
+            android:textSize="20dp">
+        </EditText>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget31"
+            android:textStyle="bold"
+            android:text="Masukkan lebar">
+        </TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/lebar"
+            android:textSize="20dp">
+        </EditText>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget34"
+            android:textStyle="bold"
+            android:text="Masukkan Tinggi">
+        </TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/tinggi"
+            android:textSize="20dp">
+        </EditText>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget32"
+            android:textStyle="bold"
+            android:text="Luas Permukaan Balok">
+        </TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/luas"
+            android:textColor="@color/teal_700"
+            android:textSize="20dp">
+        </EditText>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget33"
+            android:textStyle="bold"
+            android:text="Volume Balok">
+        </TextView>
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/volume"
+            android:textColor="@color/teal_700"
+            android:textSize="20dp">
+        </EditText>
+
+        <RadioGroup
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/dtor"
+                android:text="Menghitung Luas Permukaan Balok">
+            </RadioButton>
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/rtod"
+                android:text="Menghitung Volume Balok">
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/count"
+        android:text="Menghitung"
+        android:layout_alignRight="@+id/widget28"
+        android:layout_below="@+id/widget28">
+    </Button>
+
+</RelativeLayout>
